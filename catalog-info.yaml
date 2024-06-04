@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "PersonalWallet"
+  description: "This project is a personal business wallet"
+  annotations:
+    github.com/project-slug: "shujaahmedi2l/PersonalWallet"
+    argocd/app-name: "PersonalWallet"
+    backstage.io/techdocs-ref: dir:.
+  links:
+    - url: https://personal-wallet.onexidp.com
+      title: Web Application
+      icon: LaunchIcon
+spec:
+  type: service
+  owner: guests
+  lifecycle: experimental
